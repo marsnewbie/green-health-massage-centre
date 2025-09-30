@@ -66,10 +66,24 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Green Health Massage Centre - Professional Chinese Massage Therapy in Bath</title>
-        <meta name="description" content="Experience authentic Chinese massage therapy in Bath. Professional therapists, traditional healing techniques, and relaxing treatment rooms. Book your appointment today!" />
+        <title>Green Health Massage Centre in Bath | Professional Chinese Massage</title>
+        <meta name="description" content="Looking for massage in Bath? Green Health Massage Centre offers professional Chinese massage, deep tissue, hot stone, cupping therapy and more. Open daily 9am–9pm. Call 07759 034505 to book." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://www.greenhealthmassage.co.uk/" />
         <link rel="icon" href="/favicon.ico" />
+        
+        {/* Open Graph tags */}
+        <meta property="og:title" content="Green Health Massage Centre in Bath | Professional Massage" />
+        <meta property="og:description" content="Professional Chinese massage, cupping therapy, hot stone, deep tissue and more in Bath. Call 07759 034505." />
+        <meta property="og:url" content="https://www.greenhealthmassage.co.uk/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.greenhealthmassage.co.uk/home.jpg" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Green Health Massage Centre in Bath | Professional Massage" />
+        <meta name="twitter:description" content="Professional Chinese massage, cupping therapy, hot stone, deep tissue and more in Bath." />
+        <meta name="twitter:image" content="https://www.greenhealthmassage.co.uk/home.jpg" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
@@ -114,8 +128,8 @@ export default function Home() {
               <div className={`space-y-8 transition-all duration-1000 ${isVisible.home ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
                 <div>
                   <h1 className="text-4xl md:text-6xl font-bold text-stone-800 leading-tight">
-                    Your Body Deserves
-                    <span className="text-purple-600 block">Professional Care</span>
+                    Green Health Massage Centre
+                    <span className="text-purple-600 block">Professional Massage in Bath</span>
                   </h1>
                   <p className="text-xl text-stone-600 mt-6 leading-relaxed">
                     Experience authentic Chinese massage therapy in the heart of Bath. 
@@ -151,7 +165,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-purple-600/20 rounded-3xl transform rotate-6"></div>
                   <img 
                     src="/home.jpg"
-                    alt="Green Health Massage Centre Storefront"
+                    alt="Massage in Bath - Green Health Massage Centre Storefront"
                     className="relative rounded-3xl shadow-2xl w-full h-[500px] object-cover"
                   />
                 </div>
@@ -192,7 +206,7 @@ export default function Home() {
               <div className={`transition-all duration-1000 ${isVisible.about ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
                 <img 
                   src="/about.jpeg"
-                  alt="Comfortable waiting area"
+                  alt="Chinese Massage in Bath - Comfortable waiting area"
                   className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
                 />
               </div>
@@ -258,7 +272,7 @@ export default function Home() {
               <div className={`transition-all duration-1000 ${isVisible.services ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
                 <img 
                   src="/service.jpeg"
-                  alt="Professional massage treatment room"
+                  alt="Professional Massage Treatment Room in Bath"
                   className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
                 />
               </div>
@@ -348,7 +362,7 @@ export default function Home() {
               <div className={`space-y-6 transition-all duration-1000 delay-300 ${isVisible.contact ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`}>
                 <img 
                   src="/contact.jpg"
-                  alt="Green Health Massage Centre interior"
+                  alt="Massage Centre Interior in Bath - Green Health"
                   className="rounded-2xl shadow-xl w-full h-[350px] object-cover"
                 />
                 <Card id="booking" className="border-none shadow-lg bg-purple-600 text-white">
