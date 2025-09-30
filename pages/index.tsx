@@ -77,13 +77,13 @@ export default function Home() {
         <meta property="og:description" content="Professional Chinese massage, cupping therapy, hot stone, deep tissue and more in Bath. Call 07759 034505." />
         <meta property="og:url" content="https://www.greenhealthmassage.co.uk/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.greenhealthmassage.co.uk/home.jpg" />
+        <meta property="og:image" content="https://www.greenhealthmassage.co.uk/massage-centre-bath-storefront.jpg" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Green Health Massage Centre in Bath | Professional Massage" />
         <meta name="twitter:description" content="Professional Chinese massage, cupping therapy, hot stone, deep tissue and more in Bath." />
-        <meta name="twitter:image" content="https://www.greenhealthmassage.co.uk/home.jpg" />
+        <meta name="twitter:image" content="https://www.greenhealthmassage.co.uk/massage-centre-bath-storefront.jpg" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
@@ -164,7 +164,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-purple-600/20 rounded-3xl transform rotate-6"></div>
                   <img 
-                    src="/home.jpg"
+                    src="/massage-centre-bath-storefront.jpg"
                     alt="Massage in Bath - Green Health Massage Centre Storefront"
                     className="relative rounded-3xl shadow-2xl w-full h-[500px] object-cover"
                   />
@@ -205,7 +205,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 mt-20 items-center">
               <div className={`transition-all duration-1000 ${isVisible.about ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
                 <img 
-                  src="/about.jpeg"
+                  src="/chinese-massage-bath-waiting-area.jpeg"
                   alt="Chinese Massage in Bath - Comfortable waiting area"
                   className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
                 />
@@ -271,7 +271,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 mt-20">
               <div className={`transition-all duration-1000 ${isVisible.services ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
                 <img 
-                  src="/service.jpeg"
+                  src="/professional-massage-treatment-room-bath.jpeg"
                   alt="Professional Massage Treatment Room in Bath"
                   className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
                 />
@@ -361,7 +361,7 @@ export default function Home() {
               
               <div className={`space-y-6 transition-all duration-1000 delay-300 ${isVisible.contact ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`}>
                 <img 
-                  src="/contact.jpg"
+                  src="/massage-centre-interior-bath.jpg"
                   alt="Massage Centre Interior in Bath - Green Health"
                   className="rounded-2xl shadow-xl w-full h-[350px] object-cover"
                 />
