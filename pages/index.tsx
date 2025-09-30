@@ -5,13 +5,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import Head from "next/head";
 
 export default function Home() {
-  const [isVisible, setIsVisible] = useState({});
+  const [isVisible, setIsVisible] = useState<{[key: string]: boolean}>({});
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          setIsVisible(prev => ({
+          setIsVisible((prev: {[key: string]: boolean}) => ({
             ...prev,
             [entry.target.id]: entry.isIntersecting
           }));
@@ -27,7 +27,7 @@ export default function Home() {
     return () => observer.disconnect();
   }, []);
 
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
 
