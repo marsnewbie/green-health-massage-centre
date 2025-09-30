@@ -52,7 +52,7 @@ export default function Home() {
       treatments: [
         { name: "Deep Tissue Massage", duration: [30, 45, 60], prices: [35, 45, 50] },
         { name: "Sport Massage", duration: [30, 45, 60], prices: [35, 45, 50] },
-        { name: "Hot Stone Massage", duration: [30, 45, 60], prices: [36, 45, 50] }
+        { name: "Hot Stone Massage", duration: [30, 45, 60], prices: [35, 45, 50] }
       ]
     },
     {
