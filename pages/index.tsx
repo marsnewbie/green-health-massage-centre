@@ -150,7 +150,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-purple-600/20 rounded-3xl transform rotate-6"></div>
                   <img 
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68da6317224521034c7102b6/38822e3c7_WechatIMG75.jpg"
+                    src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     alt="Green Health Massage Centre Storefront"
                     className="relative rounded-3xl shadow-2xl w-full h-[500px] object-cover"
                   />
@@ -191,7 +191,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 mt-20 items-center">
               <div className={`transition-all duration-1000 ${isVisible.about ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
                 <img 
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/user_687096a1b16f43ffe5198bac/31e44d722_2.jpeg"
+                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   alt="Comfortable waiting area"
                   className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
                 />
@@ -257,7 +257,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 mt-20">
               <div className={`transition-all duration-1000 ${isVisible.services ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
                 <img 
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/user_687096a1b16f43ffe5198bac/66503e0de_4.jpeg"
+                  src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   alt="Professional massage treatment room"
                   className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
                 />
@@ -347,7 +347,7 @@ export default function Home() {
               
               <div className={`space-y-6 transition-all duration-1000 delay-300 ${isVisible.contact ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`}>
                 <img 
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/user_687096a1b16f43ffe5198bac/c05a8f4cb_WechatIMG327.jpg"
+                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   alt="Green Health Massage Centre interior"
                   className="rounded-2xl shadow-xl w-full h-[350px] object-cover"
                 />
