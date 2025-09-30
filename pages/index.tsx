@@ -52,7 +52,7 @@ export default function Home() {
       treatments: [
         { name: "Deep Tissue Massage", duration: [30, 45, 60], prices: [35, 45, 50] },
         { name: "Sport Massage", duration: [30, 45, 60], prices: [35, 45, 50] },
-        { name: "Hot Stone Massage", duration: [30, 45, 60], prices: [30, 40, 45] }
+        { name: "Hot Stone Massage", duration: [30, 45, 60], prices: [35, 45, 50] }
       ]
     },
     {
@@ -99,7 +99,7 @@ export default function Home() {
                 <button onClick={() => scrollToSection('contact')} className="text-stone-600 hover:text-purple-600 transition-colors font-medium">Contact</button>
               </div>
               
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white">
+              <Button onClick={() => scrollToSection('booking')} className="bg-purple-600 hover:bg-purple-700 text-white">
                 <Phone className="w-4 h-4 mr-2" />
                 Book Now
               </Button>
@@ -351,7 +351,7 @@ export default function Home() {
                   alt="Green Health Massage Centre interior"
                   className="rounded-2xl shadow-xl w-full h-[350px] object-cover"
                 />
-                <Card className="border-none shadow-lg bg-purple-600 text-white">
+                <Card id="booking" className="border-none shadow-lg bg-purple-600 text-white">
                   <CardContent className="p-8 text-center">
                     <h4 className="text-2xl font-bold mb-4">Ready to Book?</h4>
                     <p className="mb-6 opacity-90">Call us now to schedule your relaxing massage session</p>
