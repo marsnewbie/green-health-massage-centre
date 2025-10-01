@@ -71,6 +71,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://www.greenhealthmassage.co.uk/" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+        <link rel="apple-touch-icon" href="/logo.png" />
         
         {/* Open Graph tags */}
         <meta property="og:title" content="Green Health Massage Centre in Bath | Professional Massage" />
@@ -84,6 +86,32 @@ export default function Home() {
         <meta name="twitter:title" content="Green Health Massage Centre in Bath | Professional Massage" />
         <meta name="twitter:description" content="Professional Chinese massage, cupping therapy, hot stone, deep tissue and more in Bath." />
         <meta name="twitter:image" content="https://www.greenhealthmassage.co.uk/massage-centre-bath-storefront.jpg" />
+        
+        {/* Schema.org JSON-LD */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Green Health Massage Centre",
+            "url": "https://www.greenhealthmassage.co.uk",
+            "logo": "https://www.greenhealthmassage.co.uk/logo.png",
+            "description": "Professional Chinese massage therapy in Bath. Offering deep tissue, hot stone, cupping therapy and more.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "5 Cork St, Lower Weston",
+              "addressLocality": "Bath",
+              "postalCode": "BA1 3BB",
+              "addressCountry": "GB"
+            },
+            "telephone": "+44 7759 034505",
+            "openingHours": "Mo-Su 09:00-21:00",
+            "priceRange": "£30-£60",
+            "serviceArea": {
+              "@type": "City",
+              "name": "Bath"
+            }
+          })}
+        </script>
       </Head>
       
       <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
