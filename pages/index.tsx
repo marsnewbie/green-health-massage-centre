@@ -98,7 +98,7 @@ export default function Home() {
             "description": "Professional Chinese massage therapy in Bath. Offering deep tissue, hot stone, cupping therapy and more.",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "5 Cork Place, Lower Weston",
+              "streetAddress": "5 Cork St, Lower Weston",
               "addressLocality": "Bath",
               "postalCode": "BA1 3BB",
               "addressCountry": "GB"
