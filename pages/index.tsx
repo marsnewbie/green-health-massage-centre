@@ -233,7 +233,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 mt-20 items-center">
               <div className={`transition-all duration-1000 ${isVisible.about ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
                 <img 
-                  src="/chinese-massage-bath-waiting-area.jpeg"
+                  src="/chinese-massage-bath-waiting-area.jpg"
                   alt="Chinese Massage in Bath - Comfortable waiting area"
                   className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
                 />
