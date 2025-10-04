@@ -58,7 +58,7 @@ export default function Home() {
     {
       category: "Specialized Treatment",
       treatments: [
-        { name: "Foot Massage", duration: [30, 45, 60], prices: [30, 40, 45] }
+        { name: "Foot Massage", duration: [30, 45, 60], prices: [35, 45, 50] }
       ]
     }
   ];
@@ -98,7 +98,7 @@ export default function Home() {
             "description": "Professional Chinese massage therapy in Bath. Offering deep tissue, hot stone, cupping therapy and more.",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "5 Cork St, Lower Weston",
+              "streetAddress": "5 Cork Place, Lower Weston",
               "addressLocality": "Bath",
               "postalCode": "BA1 3BB",
               "addressCountry": "GB"
@@ -246,8 +246,8 @@ export default function Home() {
                   stomach issues, joint pain, and many other health concerns.
                 </p>
                 <p className="text-stone-600 leading-relaxed">
-                  Our therapists are professionally qualified with extensive experience in both traditional 
-                  Chinese medicine and modern massage techniques, ensuring you receive the highest quality care.
+                Our therapists are professionally qualified with extensive experience in massage techniques, 
+                ensuring you receive the highest quality care.
                 </p>
               </div>
             </div>
@@ -363,7 +363,7 @@ export default function Home() {
                       <MapPin className="w-6 h-6 text-purple-600 mt-1" />
                       <div>
                         <p className="font-semibold text-stone-800">Address</p>
-                        <p className="text-stone-600">5 Cork St, Lower Weston</p>
+                        <p className="text-stone-600">5 Cork Place, Lower Weston</p>
                         <p className="text-stone-600">Bath BA1 3BB, United Kingdom</p>
                         <p className="text-sm text-purple-600 mt-1">Free parking available on St Michael's Road (3 hours)</p>
                       </div>
@@ -382,7 +382,13 @@ export default function Home() {
                   
                   <div className="mt-8 p-4 bg-purple-50 rounded-lg">
                     <h4 className="font-semibold text-stone-800 mb-2">Payment Methods</h4>
-                    <p className="text-stone-600">Cash or Bank Transfer accepted</p>
+                    <p className="text-stone-600">Cash, Card or Bank Transfer accepted</p>
+                  </div>
+                  
+                  <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg">
+                    <p className="text-red-800 font-semibold text-center">
+                      WE DO NOT PROVIDE SEXUAL SERVICES
+                    </p>
                   </div>
                 </CardContent>
               </Card>
@@ -419,7 +425,7 @@ export default function Home() {
               </div>
               <p className="text-stone-400 mb-4">Professional Chinese Massage Therapy</p>
               <div className="space-y-2 text-stone-400">
-                <p>5 Cork St, Lower Weston, Bath BA1 3BB, United Kingdom</p>
+                <p>5 Cork Place, Lower Weston, Bath BA1 3BB, United Kingdom</p>
                 <p>Phone: +44 7759 034505 | Open Daily: 9:00 AM - 9:00 PM</p>
               </div>
               <div className="mt-8 pt-8 border-t border-stone-700">
