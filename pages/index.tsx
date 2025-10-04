@@ -235,7 +235,7 @@ export default function Home() {
                 <img 
                   src="/chinese-massage-bath-waiting-area.jpg"
                   alt="Chinese Massage in Bath - Comfortable waiting area"
-                  className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
+                  className="rounded-2xl shadow-xl w-full h-[400px] object-contain bg-gray-50"
                 />
               </div>
               <div className={`space-y-6 transition-all duration-1000 delay-300 ${isVisible.about ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`}>
@@ -397,7 +397,7 @@ export default function Home() {
                 <img 
                   src="/massage-centre-interior-bath.jpg"
                   alt="Massage Centre Interior in Bath - Green Health"
-                  className="rounded-2xl shadow-xl w-full h-[350px] object-cover"
+                  className="rounded-2xl shadow-xl w-full h-[350px] object-contain bg-gray-50"
                 />
                 <Card id="booking" className="border-none shadow-lg bg-purple-600 text-white">
                   <CardContent className="p-8 text-center">
