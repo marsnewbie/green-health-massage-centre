@@ -141,7 +141,7 @@ export default function Home() {
                 <button onClick={() => scrollToSection('contact')} className="text-stone-600 hover:text-purple-600 transition-colors font-medium">Contact</button>
               </div>
               
-              <Button onClick={() => scrollToSection('booking')} className="bg-purple-600 hover:bg-purple-700 text-white">
+              <Button onClick={() => scrollToSection('contact')} className="bg-purple-600 hover:bg-purple-700 text-white">
                 <Phone className="w-4 h-4 mr-2" />
                 Book Now
               </Button>
